@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 body {
@@ -22,6 +21,8 @@ body {
     border-radius: 15px;
     background-color: #fff;
     padding: 15px;
+    border: 0.5px solid black;
+    box-shadow: 3px 3px 0 #000000;
 }
 
 .card:hover {
@@ -60,4 +61,17 @@ p {
 .paragraph {
     max-width: 250px;
     overflow-wrap: break-word;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.author a {
+    color: inherit;
+}
+
+.author a:hover {
+    font-size: 2rem;
+    color: #0a0a
 }
