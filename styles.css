@@ -69,6 +69,7 @@ img {
 
 .author a {
     color: inherit;
+    text-decoration: none;
 }
 
 .author a:hover {
